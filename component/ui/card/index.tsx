@@ -4,6 +4,7 @@ import { useEntStore } from "@/store"
 import BookmarkIcon from "@/component/ui/icons/BookmarkIcon"
 import MovieIcon from "@/component/ui/icons/MovieIcon"
 import TVIcon from "@/component/ui/icons/TVIcon"
+import { usePathname } from "next/navigation"
 
 interface CardProps {
   title: string
@@ -26,10 +27,12 @@ interface CardProps {
 }
 
 const Card = ({ title, thumbnail, year, category, rating, index, isTrending = false }: CardProps) => {
+  const pathname = usePathname()
   const isBookmarked = useEntStore(
     (state) => state.entertainmentData.find((item) => item.title === title)?.isBookmarked || false,
   )
   const toggleBookmark = useEntStore((state) => state.toggleBookmark)
+  const searchTerm = useEntStore((state) => state.searchTerm)
 
   const handleBookmarkClick = () => {
     toggleBookmark(title)
@@ -37,13 +40,11 @@ const Card = ({ title, thumbnail, year, category, rating, index, isTrending = fa
 
   return (
     <div
-      className={`${
-        isTrending
-          ? "grid place-content-center peer overflow-hidden rounded-(--spacing-100)"
-          : "w-full h-full flex flex-col items-stretch transition-all duration-400 ease-out hover:scale-95"
-      } items-start gap-100 group`}
+      className={`${isTrending && pathname === '/' ? "grid place-content-center peer overflow-hidden rounded-(--spacing-100)"
+        : "w-full h-full flex flex-col items-stretch transition-all duration-400 ease-out hover:scale-95"
+        } items-start gap-100 group`}
     >
-      <div className={`${isTrending && "row-1 col-1"} h-full relative overflow-hidden rounded-(--spacing-100) peer`}>
+      <div className={`${isTrending && pathname === '/' && !searchTerm && "row-1 col-1"} h-full relative overflow-hidden rounded-(--spacing-100) peer`}>
         <button
           className="cursor-pointer p-200 z-10 absolute top-100 right-100 rounded-full overflow-hidden bg-blue-950/50 hover:bg-white transition-all duration-300 ease-out group/bookmark text-white hover:text-blue-950"
           onClick={handleBookmarkClick}
@@ -52,8 +53,8 @@ const Card = ({ title, thumbnail, year, category, rating, index, isTrending = fa
         </button>
         {thumbnail && (
           <Image
-            width={isTrending ? 470 : 280}
-            height={isTrending ? 230 : 420}
+            width={isTrending && pathname === '/' && !searchTerm ? 470 : 280}
+            height={isTrending && pathname === '/' && !searchTerm ? 230 : 420}
             className={`${!isTrending && "w-full"} peer`}
             src={thumbnail.regular?.large || thumbnail.trending?.large || ""}
             alt={title}
@@ -62,11 +63,10 @@ const Card = ({ title, thumbnail, year, category, rating, index, isTrending = fa
       </div>
 
       <div
-        className={`${
-          isTrending
-            ? "z-20 row-1 col-1 place-self-end p-200 bg-blue-950/50 rounded-(--spacing-100) flex flex-col gap-200 mb-200 mr-200 transition-all duration-400 ease-out peer-hover:-translate-y-4 peer-hover:bg-blue-950/65 "
-            : "flex flex-col gap-100"
-        }`}
+        className={`${isTrending && pathname === '/' && !searchTerm
+          ? "z-20 row-1 col-1 place-self-end p-200 bg-blue-950/50 rounded-(--spacing-100) flex flex-col gap-200 mb-200 mr-200 transition-all duration-400 ease-out peer-hover:-translate-y-4 peer-hover:bg-blue-950/65 "
+          : "flex flex-col gap-100"
+          }`}
       >
         <div className="flex flex-row items-center gap-100 text-6 text-white/75">
           <p>{year}</p>
