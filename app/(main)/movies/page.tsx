@@ -5,13 +5,15 @@ import CardList from "@/component/ui/card-list"
 import Pagination from "@/component/ui/pagination"
 
 const Movies = () => {
-  const { searchTerm, setSearchTerm, getFilteredData, moviesPagination, setMoviesPage, getPaginatedData } =
+  const { searchTerm, setSearchTerm, getFilteredData, hasHydrated, moviesPagination, setMoviesPage, getPaginatedData } =
     useEntertainmentStore()
 
   const filteredMovies = getFilteredData("Movie")
 
   const paginatedMovies = getPaginatedData(filteredMovies, moviesPagination.currentPage, moviesPagination.itemsPerPage)
   const totalPages = Math.ceil(filteredMovies.length / moviesPagination.itemsPerPage)
+
+  if (!hasHydrated) return (<div><h1>Loading...</h1> </div>)
 
   return (
     <div className="w-full p-200 sm:p-300 md:p-400 col-start-1 flex flex-col gap-300">

@@ -9,6 +9,7 @@ export const useEntertainmentStore = () => {
   const getRecommendedData = useEntStore((state) => state.getRecommendedData)
   const homePagination = useEntStore((state) => state.homePagination)
   const moviesPagination = useEntStore((state) => state.moviesPagination)
+  const hasHydrated = useEntStore((state) => state.hasHydrated)
   const tvSeriesPagination = useEntStore((state) => state.tvSeriesPagination)
   const setHomePage = useEntStore((state) => state.setHomePage)
   const setMoviesPage = useEntStore((state) => state.setMoviesPage)
@@ -24,6 +25,7 @@ export const useEntertainmentStore = () => {
     getRecommendedData,
     homePagination,
     moviesPagination,
+    hasHydrated,
     tvSeriesPagination,
     setHomePage,
     setMoviesPage,

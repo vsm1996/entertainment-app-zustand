@@ -4,10 +4,12 @@ import { useEntertainmentStore } from "@/hooks/useEntertainmentStore"
 import CardList from "@/component/ui/card-list"
 
 const Bookmarks = () => {
-  const { searchTerm, setSearchTerm, getFilteredData } = useEntertainmentStore()
+  const { searchTerm, hasHydrated, setSearchTerm, getFilteredData } = useEntertainmentStore()
 
   const bookmarkedMovies = getFilteredData("Movie", true)
   const bookmarkedTVSeries = getFilteredData("TV Series", true)
+
+  if (!hasHydrated) return (<div><h1>Loading...</h1> </div>)
 
   return (
     <div className="w-full p-200 sm:p-300 md:p-400 col-start-1 flex flex-col gap-300">

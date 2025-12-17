@@ -32,6 +32,8 @@ export default function Home() {
   )
   const totalPages = Math.ceil(recommendedData.length / homePagination.itemsPerPage)
 
+  if (!hasHydrated) return (<div><h1>Loading...</h1> </div>)
+
   return (
     <main className="px-200 py-300 md:px-0 grid grid-rows-[max-content_max-content_max-content] gap-300 text-white">
       <Input searchTerm={searchTerm} handleChangeTerm={setSearchTerm} />
