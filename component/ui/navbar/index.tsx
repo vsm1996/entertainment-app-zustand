@@ -51,7 +51,7 @@ const Navbar = () => {
           ))}
       </ul>
       <div className="overflow-hidden rounded-full border-2 border-white w-[32px] h-[32px] bg-blue-500">
-        <Image src="/placeholder.svg?height=32&width=32" alt="User avatar" width={32} height={32} />
+        <Image src="/assets/image-avatar.jpg" alt="User avatar" width={32} height={32} />
       </div>
     </nav>
   )
