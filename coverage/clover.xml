@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1765957084205" clover="3.2.0">
+  <project timestamp="1765957084206" name="All files">
+    <metrics statements="177" coveredstatements="138" conditionals="66" coveredconditionals="48" methods="54" coveredmethods="44" elements="297" coveredelements="230" complexity="0" loc="177" ncloc="177" packages="14" files="23" classes="23"/>
+    <package name="app">
+      <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="layout.tsx" path="/Users/vanessa/Desktop/entertainment-app-zustand/app/layout.tsx">
+        <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+      </file>
+      <file name="loading.tsx" path="/Users/vanessa/Desktop/entertainment-app-zustand/app/loading.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.(main)">
+      <metrics statements="16" coveredstatements="14" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="2"/>
+      <file name="layout.tsx" path="/Users/vanessa/Desktop/entertainment-app-zustand/app/(main)/layout.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="page.tsx" path="/Users/vanessa/Desktop/entertainment-app-zustand/app/(main)/page.tsx">
+        <metrics statements="14" coveredstatements="14" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="14" type="stmt"/>
+        <line num="22" count="23" type="stmt"/>
+        <line num="24" count="23" type="stmt"/>
+        <line num="25" count="23" type="stmt"/>
+        <line num="26" count="23" type="stmt"/>
+        <line num="28" count="23" type="stmt"/>
+        <line num="33" count="23" type="stmt"/>
+        <line num="57" count="80" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.(main).bookmarks">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="page.tsx" path="/Users/vanessa/Desktop/entertainment-app-zustand/app/(main)/bookmarks/page.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="13" type="stmt"/>
+        <line num="9" count="13" type="stmt"/>
+        <line num="10" count="13" type="stmt"/>
+        <line num="25" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.(main).movies">
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="page.tsx" path="/Users/vanessa/Desktop/entertainment-app-zustand/app/(main)/movies/page.tsx">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="9" count="14" type="stmt"/>
+        <line num="11" count="14" type="stmt"/>
+        <line num="13" count="14" type="stmt"/>
+        <line num="14" count="14" type="stmt"/>
+        <line num="26" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.(main).tv-series">
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="page.tsx" path="/Users/vanessa/Desktop/entertainment-app-zustand/app/(main)/tv-series/page.tsx">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="9" count="9" type="stmt"/>
+        <line num="11" count="9" type="stmt"/>
+        <line num="13" count="9" type="stmt"/>
+        <line num="18" count="9" type="stmt"/>
+        <line num="31" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="component.ui.card">
+      <metrics statements="12" coveredstatements="12" conditionals="22" coveredconditionals="21" methods="5" coveredmethods="5"/>
+      <file name="index.tsx" path="/Users/vanessa/Desktop/entertainment-app-zustand/component/ui/card/index.tsx">
+        <metrics statements="12" coveredstatements="12" conditionals="22" coveredconditionals="21" methods="5" coveredmethods="5"/>
+        <line num="2" count="7" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
+        <line num="28" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="29" count="509" type="stmt"/>
+        <line num="30" count="17971" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="1727" type="stmt"/>
+        <line num="34" count="509" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="88" count="509" type="stmt"/>
+      </file>
+    </package>
+    <package name="component.ui.card-list">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="index.tsx" path="/Users/vanessa/Desktop/entertainment-app-zustand/component/ui/card-list/index.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="14" count="422" type="stmt"/>
+        <line num="28" count="75" type="stmt"/>
+      </file>
+    </package>
+    <package name="component.ui.carousel">
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <file name="index.tsx" path="/Users/vanessa/Desktop/entertainment-app-zustand/component/ui/carousel/index.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="16" type="stmt"/>
+        <line num="15" count="16" type="cond" truecount="1" falsecount="1"/>
+        <line num="24" count="80" type="stmt"/>
+        <line num="33" count="16" type="stmt"/>
+      </file>
+    </package>
+    <package name="component.ui.content-grid">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/Users/vanessa/Desktop/entertainment-app-zustand/component/ui/content-grid/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="11" count="75" type="stmt"/>
+      </file>
+    </package>
+    <package name="component.ui.icons">
+      <metrics statements="16" coveredstatements="14" conditionals="5" coveredconditionals="3" methods="8" coveredmethods="7"/>
+      <file name="BookmarkIcon.tsx" path="/Users/vanessa/Desktop/entertainment-app-zustand/component/ui/icons/BookmarkIcon.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="7" type="cond" truecount="0" falsecount="1"/>
+        <line num="18" count="509" type="stmt"/>
+      </file>
+      <file name="BookmarkNavIcon.tsx" path="/Users/vanessa/Desktop/entertainment-app-zustand/component/ui/icons/BookmarkNavIcon.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="16" count="4" type="stmt"/>
+      </file>
+      <file name="HomeIcon.tsx" path="/Users/vanessa/Desktop/entertainment-app-zustand/component/ui/icons/HomeIcon.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="16" count="4" type="stmt"/>
+      </file>
+      <file name="MovieIcon.tsx" path="/Users/vanessa/Desktop/entertainment-app-zustand/component/ui/icons/MovieIcon.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="5" count="8" type="cond" truecount="1" falsecount="0"/>
+        <line num="16" count="296" type="stmt"/>
+      </file>
+      <file name="PlayIcon.tsx" path="/Users/vanessa/Desktop/entertainment-app-zustand/component/ui/icons/PlayIcon.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+      <file name="SearchIcon.tsx" path="/Users/vanessa/Desktop/entertainment-app-zustand/component/ui/icons/SearchIcon.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="12" count="64" type="stmt"/>
+      </file>
+      <file name="SiteLogo.tsx" path="/Users/vanessa/Desktop/entertainment-app-zustand/component/ui/icons/SiteLogo.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+      </file>
+      <file name="TVIcon.tsx" path="/Users/vanessa/Desktop/entertainment-app-zustand/component/ui/icons/TVIcon.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="5" count="8" type="cond" truecount="1" falsecount="0"/>
+        <line num="16" count="221" type="stmt"/>
+      </file>
+    </package>
+    <package name="component.ui.input">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="index.tsx" path="/Users/vanessa/Desktop/entertainment-app-zustand/component/ui/input/index.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="12" count="64" type="stmt"/>
+        <line num="13" count="23" type="stmt"/>
+        <line num="14" count="23" type="stmt"/>
+        <line num="24" count="23" type="stmt"/>
+        <line num="30" count="64" type="stmt"/>
+      </file>
+    </package>
+    <package name="component.ui.navbar">
+      <metrics statements="13" coveredstatements="13" conditionals="10" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <file name="index.tsx" path="/Users/vanessa/Desktop/entertainment-app-zustand/component/ui/navbar/index.tsx">
+        <metrics statements="13" coveredstatements="13" conditionals="10" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="48" count="16" type="stmt"/>
+        <line num="60" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="component.ui.pagination">
+      <metrics statements="37" coveredstatements="14" conditionals="18" coveredconditionals="8" methods="6" coveredmethods="3"/>
+      <file name="index.tsx" path="/Users/vanessa/Desktop/entertainment-app-zustand/component/ui/pagination/index.tsx">
+        <metrics statements="37" coveredstatements="14" conditionals="18" coveredconditionals="8" methods="6" coveredmethods="3"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="39" type="stmt"/>
+        <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="16" count="39" type="stmt"/>
+        <line num="17" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="22" count="39" type="stmt"/>
+        <line num="23" count="32" type="stmt"/>
+        <line num="24" count="32" type="stmt"/>
+        <line num="26" count="32" type="cond" truecount="1" falsecount="1"/>
+        <line num="27" count="32" type="stmt"/>
+        <line num="28" count="64" type="stmt"/>
+        <line num="31" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="54" count="32" type="stmt"/>
+        <line num="57" count="39" type="cond" truecount="2" falsecount="0"/>
+        <line num="72" count="64" type="cond" truecount="1" falsecount="1"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="80" count="64" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="110" count="39" type="stmt"/>
+      </file>
+    </package>
+    <package name="store">
+      <metrics statements="26" coveredstatements="23" conditionals="8" coveredconditionals="8" methods="17" coveredmethods="14"/>
+      <file name="index.ts" path="/Users/vanessa/Desktop/entertainment-app-zustand/store/index.ts">
+        <metrics statements="26" coveredstatements="23" conditionals="8" coveredconditionals="8" methods="17" coveredmethods="14"/>
+        <line num="2" count="9" type="stmt"/>
+        <line num="21" count="1940" type="stmt"/>
+        <line num="484" count="78" type="stmt"/>
+        <line num="485" count="78" type="stmt"/>
+        <line num="486" count="2262" type="cond" truecount="2" falsecount="0"/>
+        <line num="488" count="78" type="stmt"/>
+        <line num="491" count="87" type="stmt"/>
+        <line num="493" count="150" type="stmt"/>
+        <line num="494" count="150" type="stmt"/>
+        <line num="496" count="150" type="cond" truecount="2" falsecount="0"/>
+        <line num="497" count="1392" type="stmt"/>
+        <line num="500" count="150" type="cond" truecount="2" falsecount="0"/>
+        <line num="501" count="1509" type="stmt"/>
+        <line num="504" count="150" type="cond" truecount="2" falsecount="0"/>
+        <line num="505" count="418" type="stmt"/>
+        <line num="508" count="150" type="stmt"/>
+        <line num="511" count="26" type="stmt"/>
+        <line num="512" count="533" type="stmt"/>
+        <line num="515" count="25" type="stmt"/>
+        <line num="516" count="511" type="stmt"/>
+        <line num="518" count="0" type="stmt"/>
+        <line num="519" count="0" type="stmt"/>
+        <line num="520" count="0" type="stmt"/>
+        <line num="522" count="46" type="stmt"/>
+        <line num="523" count="46" type="stmt"/>
+        <line num="524" count="46" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
